@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myd
+spec:
+  replicas: {{  .Values.replicaCount  }}
+  selector:
+    matchLabels:
+      app: myd
+  template:
+    metadata:
+      labels:
+        app: myd
+    spec:
+      containers:
+      - name: jenkins-image
+        image: anuja9431/jenkins-image:v1
+        resources: {}
+status: {}
