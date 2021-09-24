@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  jenkins:
+  - apiVersion: v1
+    appVersion: "1.1"
+    created: "2021-09-24T23:24:03.4612833+05:30"
+    description: This is my package for jenkins!
+    digest: bb0e8b59e82588b05d8fa1b6400d60041a4b98e5bd4672e143fcccdb263b6ef1
+    name: jenkins
+    urls:
+    - jenkins-0.1.tgz
+    version: "0.1"
+generated: "2021-09-24T23:24:03.4607353+05:30"
