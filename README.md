@@ -1,2 +1,5 @@
-# Jenkins-Helm-Chart-
-Deploy Jenkins in Kubernetes using Helm Chart
+# Jenkins-Helm-Chart
+
+![helm](https://github.com/Anujakumari/Jenkins-Helm-Chart/blob/master/images/helm.png)
+
+
